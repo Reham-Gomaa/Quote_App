@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Quotes App</title>
+    <link rel="shortcut icon" href="images/quotes-icon.jpg" type="image/x-icon">
+</head>
+<body>
+    <main class="py-5 vh-100 d-flex flex-column align-items-center">
+        <h1>Quote of the Day</h1>
+        <p class="my-5">Press the button below to recieve a random <span>quote!</span></p>
+        <button type="button" onclick="getQuote()" class="btn border-0 mb-5 px-5 py-4">
+        New Quote
+        </button>
+        <p id="quote" class="w-75 py-5 mx-auto text-center"></p>
+    </main>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

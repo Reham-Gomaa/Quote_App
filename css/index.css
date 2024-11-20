@@ -1,0 +1,28 @@
+body{
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 2.1875rem;
+    color: #000;
+}
+main{
+    background-image: url(../images/dots.png);
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+}
+span{
+    background: linear-gradient(to bottom right,#f32170, #ff6b08,#cf23cf, #eedd44) ;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: .8125rem;
+    color: #fff !important;
+    background-image: linear-gradient(to bottom right,#f32170, #ff6b08,#cf23cf, #eedd44) ;
+}
+button:hover{
+    background-image: linear-gradient(to bottom right,#f03d82, #f08b49,#cb40cb, #e6d750) !important;
+}
